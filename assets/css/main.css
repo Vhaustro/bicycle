@@ -1,0 +1,61 @@
+body{
+    background-color: peachpuff;
+    color: black;
+    font-size: 17px;
+    background-image: linear-gradient(to bottom, #94f4c2, #a9f1b4, #bdedaa, #cee9a2, #dee49e, #efe0a5, #fadcb1, #ffdbbf, #ffe0d9, #ffeaf0, #fef5fd, #ffffff);
+    
+    font-family: 'Balsamiq Sans', cursive;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+h3{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+
+h4{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+}
+
+.headin {
+    text-align: center;
+}
+
+.nav-menu a{
+    color: black;
+    text-decoration: none;
+    word-spacing: -1px;
+}
+
+.nav-menu a:hover {
+    color: white;
+    transition: .3s ease-in-out;
+    padding-left: 1000px;
+}
+
+.intro {
+    padding-left: 70px;
+    text-decoration: underline;
+}
+
+
+.cate a{
+    border-radius: 10%;
+    filter: grayscale(100%)
+}
+
+.cate a:hover{
+    filter: grayscale(0%);
+    transform: scale(1.6);
+    transition: .3s ease-in-out;
+    transition-duration: 0.7s;
+}
+
+.foota {
+    text-align: right;
+    padding-left: 30px;
+}
